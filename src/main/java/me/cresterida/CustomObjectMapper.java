@@ -9,7 +9,7 @@ import javax.inject.Singleton;
 
 public class CustomObjectMapper {
 
-q    @Singleton
+    @Singleton
     ObjectMapper objectMapper(Instance<ObjectMapperCustomizer> customizers) {
         ObjectMapper mapper = new ObjectMapper();
 
